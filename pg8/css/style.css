@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html{
+    font-size: 60px;
+    color: white;
+    background-color: #0378A6;
+    font-family: "Amatic SC", sans-serif;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+}
+
+p{
+    text-align: center;
+    padding: 25%;
+}
+
+a{
+    font-size: 25px;
+    text-align: right;
+    color: #0378A6;
+}
+
+#pulse{
+    animation-name: pulse ;
+    animation-delay: 1ms ;
+    animation-direction: normal;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-out;
+}
+
+
+@keyframes pulse{
+    to{
+        background-color: black;
+    }
+
+    from{
+        background-color: #0378A6;
+    }
+}

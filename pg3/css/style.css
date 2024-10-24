@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 60px;
+    color: white;
+    background-color: #0378A6;
+    font-family: "Amatic SC", sans-serif;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+}
+
+p{
+    padding: 25%;
+    text-align: center;
+}
+
+a{
+    color: #0378A6;
+    text-decoration: none;
+}
+
+#glow{
+    animation-name: glow ;
+    animation-delay: 1ms ;
+    animation-direction: normal;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes glow {
+    from{
+        background-color: #0378A6;
+    }
+
+    to {
+        background-color:#D93D3D;
+    }
+}

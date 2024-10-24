@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 60px;
+    color: white;
+    background-color: #0378A6;
+    font-family: "Amatic SC", sans-serif;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+
+}
+
+p{
+    padding: 25%;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+a{
+    color: #25d270;
+    text-decoration: none;
+}
+
+#everything{
+    transition-duration: 5s;
+}
+
+#everything:hover{
+    transform: rotate(800deg) translate(100px, 50px) ;
+}

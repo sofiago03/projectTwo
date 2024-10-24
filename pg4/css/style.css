@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 60px;
+    color: white;
+    background-color: #0378A6;
+    font-family: "Amatic SC", sans-serif;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+}
+
+p{
+    padding: 25%;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+
+a{
+    color: #25d270;
+    text-decoration: none;
+    transition-duration: 3s;
+    position: absolute;
+}
+
+
+#click:hover {
+    transform: scale(2) translate(20px) skew(10deg,15deg);
+    color:#25d270 ;
+
+}

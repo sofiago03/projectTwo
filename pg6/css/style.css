@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 60px;
+    color: white;
+    background-color: #0378A6;
+    font-family: "Amatic SC", sans-serif;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+
+}
+
+p{
+    padding: 25%;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+a{
+    color: #25d270;
+    text-decoration: none;
+}
+
+#click{
+    animation-name: click ;
+    animation-delay: 1ms ;
+    animation-direction: normal;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+
+@keyframes click{
+    to{
+        color: white;
+    }
+
+    from{
+        color:  #D93D3D;
+    }
+}
